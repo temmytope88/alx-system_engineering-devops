@@ -1,1 +1,1 @@
-script for running command
+Basics of shell
