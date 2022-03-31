@@ -1,0 +1,4 @@
+#!/bin/bash
+ls -lna
+ls *[0-9]* -la
+ls *[0-9]* -a
