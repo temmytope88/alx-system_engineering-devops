@@ -1,2 +1,2 @@
-#!/bin/bash
-find -midepth 1 -type d | wc -1
+#!/bin/bas 
+find -mindept    1 -type d | wc -1
