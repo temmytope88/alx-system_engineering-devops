@@ -1,1 +1,1 @@
-Basics of shell
+About shell redirections
