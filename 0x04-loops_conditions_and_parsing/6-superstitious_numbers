@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+a=1
+while [ $a -lt 21 ]
+do
+	if [ $a == 4 ]
+	then
+		echo $a
+		echo "bad luck from China"a
+	elif [ $a == 9 ]
+	then
+		echo $a
+		echo "bad luck from Japan"
+	elif [ $a == 17 ]
+	then
+		echo $a
+		echo "bad from Italy"
+	else
+		echo $a
+	fi
+	((a++))
+done

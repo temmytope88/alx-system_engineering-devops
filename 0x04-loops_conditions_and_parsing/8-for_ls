@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+list=$(ls)
+for var in $list
+do
+	echo $var | cut -d "-" -f2
+done

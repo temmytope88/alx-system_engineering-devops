@@ -3,12 +3,9 @@
 a=1
 while [ $a -lt 11 ]
 do
-	if [ $a == 4 ]
-	then
-		echo "bad luck"
-	elif [ $a == 8 ]
-	then
-		echo "good luck"
+	if [ $a == 9 ]
+	then 
+		echo "Hi"
 	else
 		echo "Best School"
 	fi
