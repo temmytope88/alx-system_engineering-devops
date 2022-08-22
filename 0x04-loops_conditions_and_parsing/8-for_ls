@@ -2,5 +2,5 @@
 list=$(ls)
 for var in $list
 do
-	echo $var | cut -d "-" -f2
+	echo "$var" | cut -d "-" -f2
 done

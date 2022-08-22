@@ -1,19 +1,18 @@
 #!/usr/bin/env bash
-
 a=1
 while [ $a -lt 100 ]
 do
-	if [ $((a%3)) == 0 -a  $((a%5)) == 0 ]
+	if [ $((a%3)) == 0 ] && [ $((a%5)) == 0 ]
 	then
 		echo "FizzBuzz"
 	elif [ $((a%5)) == 0 ]
-	then 
+	then
 		echo "Fizz"
 	elif [ $((a%3)) == 0 ]
 	then
 		echo "Buzz"
 	else
-		echo $a
+		echo "$a"
 	fi
 	((a++))
 done
