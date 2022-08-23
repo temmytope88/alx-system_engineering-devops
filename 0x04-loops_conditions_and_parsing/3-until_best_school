@@ -1,5 +1,5 @@
-#!/usr/bin/env bash 
-
+#!/usr/bin/env bash
+# a until loop that prints Best School 10 times
 a=0
 until [ $a -ge 10 ]
 do

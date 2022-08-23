@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# a loop that check for luck
 a=1
 while [ $a -lt 11 ]
 do

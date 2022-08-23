@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-
+# a loop thet prints hi the 9th time
 a=1
 while [ $a -lt 11 ]
 do
 	if [ $a == 9 ]
-	then 
+	then
 		echo "Hi"
 	else
 		echo "Best School"

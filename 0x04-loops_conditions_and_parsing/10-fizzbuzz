@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A program the prints Fizzbuzz
 a=1
 while [ $a -lt 100 ]
 do

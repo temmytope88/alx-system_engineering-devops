@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# a program that checks if a file exists and if it is a directory or not
 if [ -e school ]
 then
 	echo "school file exists"
@@ -11,7 +11,7 @@ then
 	fi
 
 	if [ -f school ]
-	then 
+	then
 		echo "school is a regular file"
 	fi
 else

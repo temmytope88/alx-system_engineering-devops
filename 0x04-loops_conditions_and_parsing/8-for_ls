@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# a for loop the loops and print names of list in a directory
 list=$(ls)
 for var in $list
 do

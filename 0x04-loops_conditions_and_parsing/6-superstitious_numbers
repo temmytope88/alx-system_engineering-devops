@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# a loop that prints number
 a=1
 while [ $a -lt 21 ]
 do
