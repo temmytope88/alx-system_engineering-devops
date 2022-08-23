@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A for loop the echoes Best Scool 10 times
 for ((a=0; a<10; a++))
 do
     echo 'Best School'
