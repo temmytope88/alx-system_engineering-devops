@@ -6,7 +6,7 @@ do
 	case $a in
 	4)
 		echo $a
-		echo "bad luck from China"a
+		echo "bad luck from China"
 		;;
 	9)
 		echo $a
