@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A program the prints Fizzbuzz
 a=1
-while [ $a -lt 100 ]
+while [ $a -lt 101 ]
 do
 	if [ $((a%3)) == 0 ] && [ $((a%5)) == 0 ]
 	then
