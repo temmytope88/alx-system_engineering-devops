@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script that list all listening ports with PID name
+netstat -lp
