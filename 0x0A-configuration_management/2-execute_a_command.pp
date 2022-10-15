@@ -1,5 +1,5 @@
 # a puppet that execute command
 exec { 'pkill':
-  command => 'pkill killmenow'
-  path    => ['/usr/bin', 'usr/bin', '/bin']
+  command => 'pkill -9 -f killmenow',
+  path    => '/usr/bin'
 }
