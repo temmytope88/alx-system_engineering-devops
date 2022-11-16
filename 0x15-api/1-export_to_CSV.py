@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 """ A module that request data from an API and
 export as CSV file """
+import csv
 import requests
 import sys
-import csv
-
 
 if __name__ == "__main__":
 
