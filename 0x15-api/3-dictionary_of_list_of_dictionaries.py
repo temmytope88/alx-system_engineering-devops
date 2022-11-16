@@ -29,7 +29,6 @@ if __name__ == "__main__":
             task_detail["completed"] = todo["completed"]
             task_list.append(task_detail)
         all_employee_task[id] = task_list
-    print(all_employee_task)
     with open('todo_all_employees.json'.format(id), 'w', encoding='UTF8') as jsonfile:
         json.dump(all_employee_task, jsonfile)
 

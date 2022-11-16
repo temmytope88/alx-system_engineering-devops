@@ -6,10 +6,10 @@ import sys
 if __name__ == "__main__":
 
     id = sys.argv[1]
-    r = requests.get
-    ("https://jsonplaceholder.typicode.com/todos?userId={}".format(id))
-    n = requests.get
-    ("https://jsonplaceholder.typicode.com/users?id={}".format(id))
+    r = requests.get(
+        "https://jsonplaceholder.typicode.com/todos?userId={}".format(id))
+    n = requests.get(
+        "https://jsonplaceholder.typicode.com/users?id={}".format(id))
     content = n.json()
     name = content[0]["name"]
     content_todo = r.json()
