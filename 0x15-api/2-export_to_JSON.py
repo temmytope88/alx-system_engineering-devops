@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """ A module that request data from an API and
 export as json file """
+import json
 import requests
 import sys
-import json
+
 
 
 if __name__ == "__main__":
